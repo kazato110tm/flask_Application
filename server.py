@@ -1,5 +1,5 @@
 from flask_blog import app
-import flask_blog.views
+from flask_blog.views import views, entries
 
 if __name__ == '__main__':
     app.run(debug=True)
